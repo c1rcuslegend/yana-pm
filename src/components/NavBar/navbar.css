@@ -1,0 +1,159 @@
+
+.navbar{
+    background-color: #f1c7c0;
+    display: flex;
+    position: sticky;
+    width: 100vw;
+    height: 18vh;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0 6vw;
+    align-items: center;
+    justify-content:space-between;
+    top:0;
+    z-index: 3;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.navLogo{
+    object-fit: cover;
+    height: 16vh;
+}
+
+.navMenu{
+    color:#37829b;
+    display: flex;
+    gap: 2vw;
+    font-size: 1.75vw;
+    background-color: #f1c7c0;
+    padding: 0.5vh 2vw;
+    border-radius: 3rem;
+}
+
+.navIcon{
+    margin: 1vh 0;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+.navIcon:hover{
+    color:#125065;
+    border-bottom: 3px solid #125065;
+}
+
+.navContact{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    background: #37829b;
+    color:#FFD9D2;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid transparent;
+    gap:1vw;
+    padding: 0 2vw;
+    font-size: 1.75vw;
+}
+
+#phone{
+    height:3vw; 
+    fill:#FFD9D2;
+    margin: 0.5vh 0;
+}
+
+.navContact:hover svg path,
+.navContact:hover{
+    fill:#37829b;
+    color:#37829b;
+    background: #FFD9D2;
+    border: 4px solid #37829b;
+}
+
+.mobIcon{
+    object-fit: cover;
+    height: 4vh;
+    cursor: pointer;
+    display: none;
+}
+
+.mobMenu{
+    position: absolute;
+    top: 18vh;
+    left:0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1vh;
+    padding:1vh;
+    height: fit-content;
+    min-width: 15rem;
+    background-color: transparent;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: none;
+}
+
+.menuIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #37829b;
+    padding:2vh;
+    width: 100%;
+    background-color: #FFD9D2;
+    border-radius: 2vw;
+    font-size: 2.75vw;
+    display: none;
+}
+
+@media screen and (max-width:1180px){
+    .navMenu{
+        font-size: 2.25vw;
+    }
+
+}
+
+
+@media screen and (max-width:940px){
+    .mobMenu, .menuIcon{
+        display: flex;
+    }
+    .mobMenu{
+        background-color: rgb(240, 201, 218);
+    }
+    .mobIcon{
+        display: flex;
+        height: 5vh;
+    }
+    .menuIcon{
+        font-size: 4.5vw;
+    }
+    .navMenu, .navContact{
+        display: none;
+    }
+    .navLogo{
+        height: 13vh;
+    }
+}
+
+@media screen and (max-width:620px){
+    .mobIcon{
+        display: flex;
+        height: 3vh;
+    }
+    .mobMenu{
+        top:12vh;
+    }
+    .navLogo{
+        height: 10vh;
+    }
+    .navbar{
+        height: 12vh;
+    }
+}

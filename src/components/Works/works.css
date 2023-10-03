@@ -1,0 +1,118 @@
+#works{
+    margin:0 auto;
+    width: 100vw;
+    min-height: calc(100vh - 6vh);
+    max-width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    padding: 0 2vw;
+}
+
+.worksTitle{
+    padding: 10vh 0 5vh 0;
+    font-size: 4rem;
+    font-weight:700;
+    color: #125065;
+}
+
+.worksImgs{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65vw;
+    gap:2vw;
+    flex-wrap: wrap;
+}
+
+.viewMore{
+    margin-top: 5vh;
+    cursor: pointer;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    color:#FFD9D2;
+    background-color: #37829b;
+    border: 4px solid transparent;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh 2vw;
+    gap:1vw;
+    font-size: 1.75rem;
+}
+
+.viewMore svg{
+    width:3vw;
+}
+
+.viewMore svg path{
+    stroke:#FFD9D2;
+}
+
+.viewMore:hover,.viewMore:hover svg path{
+    background: #FFD9D2;
+    color:#37829b;
+    border: 4px solid #37829b;
+    stroke:#37829b;
+}
+
+.worksImg{
+    height: calc(100vw - 75vw);
+    width: calc(100vw - 75vw);
+    box-shadow: 0px 0px 20px white;
+}
+
+@media screen and (max-width:1200px){
+    .worksImgs{
+        max-width: 70vw;
+    }
+    .viewMore svg{
+        width:5vw;
+    }
+    
+}
+
+@media screen and (max-width:940px){
+    .worksTitle{
+        font-size: 7vw;
+    }
+    .viewMore{
+        padding: 0.5vh 2vw;
+        width:40vw;
+        font-size: 6vw;
+    }
+    .worksImgs{
+        max-width: 75vw;
+    }
+    .worksImg{
+        height: calc(100vw - 65vw);
+        width: calc(100vw - 65vw);
+    }
+    .viewMore svg{
+        width: 9vw;
+    }
+}
+
+@media screen and (max-width:620px){
+    .worksImgs{
+        max-width: 80vw;
+    }
+    .viewMore{
+        width:50vw;
+        padding: 0.25vh 2vw;
+        font-size: 6vw;
+    }
+    .worksTitle{
+        font-size: 9vw;
+    }
+    .worksImg{
+        height: calc(100vw - 65vw);
+        width: calc(100vw - 65vw);
+    }
+    .viewMore svg{
+        width: 8vw;
+    }
+}
