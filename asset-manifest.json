@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/yana-pm/static/css/main.81838cda.css",
-    "main.js": "/yana-pm/static/js/main.580b90f8.js",
-    "static/media/main.jpg": "/yana-pm/static/media/main.c433b473a902ff33a1c0.jpg",
-    "static/media/logo.png": "/yana-pm/static/media/logo.ac9c0e087fe361e1c886.png",
-    "static/media/portfolio-4.png": "/yana-pm/static/media/portfolio-4.2ed1246179c03470c8a4.png",
-    "static/media/portfolio-1.png": "/yana-pm/static/media/portfolio-1.9a2bd2cf506d0c648a11.png",
-    "static/media/portfolio-3.png": "/yana-pm/static/media/portfolio-3.161baed3cc0f6bb33c46.png",
-    "static/media/portfolio-2.png": "/yana-pm/static/media/portfolio-2.4aae394b22606d5d1ece.png",
-    "static/media/tiktok.svg": "/yana-pm/static/media/tiktok.a1840dedddaf7b5079f45980c3d129d9.svg",
-    "static/media/instagram.svg": "/yana-pm/static/media/instagram.2fd021837a135d998ddd6bcb346a1de4.svg",
-    "static/media/eyebrow.svg": "/yana-pm/static/media/eyebrow.88f4f7e0752c272f2424eb1d0458a8e1.svg",
-    "static/media/viber.svg": "/yana-pm/static/media/viber.f1b8b8a06cc81a336979a85bc0231de3.svg",
-    "static/media/hair.svg": "/yana-pm/static/media/hair.315f345c44839e19391b1f5f2aeea37f.svg",
-    "static/media/lips.svg": "/yana-pm/static/media/lips.2d05cd0c8d4c311a90578b761b2c2c70.svg",
-    "static/media/telegram.svg": "/yana-pm/static/media/telegram.3295c7bd9bf1124c19a978b2c44e09c8.svg",
-    "index.html": "/yana-pm/index.html",
-    "static/media/nav.svg": "/yana-pm/static/media/nav.5d9009711c351cf574d2baaf7773095d.svg",
-    "main.81838cda.css.map": "/yana-pm/static/css/main.81838cda.css.map",
-    "main.580b90f8.js.map": "/yana-pm/static/js/main.580b90f8.js.map"
+    "main.css": "/static/css/main.81838cda.css",
+    "main.js": "/static/js/main.97a0d283.js",
+    "static/media/main.jpg": "/static/media/main.c433b473a902ff33a1c0.jpg",
+    "static/media/logo.png": "/static/media/logo.ac9c0e087fe361e1c886.png",
+    "static/media/portfolio-4.png": "/static/media/portfolio-4.2ed1246179c03470c8a4.png",
+    "static/media/portfolio-1.png": "/static/media/portfolio-1.9a2bd2cf506d0c648a11.png",
+    "static/media/portfolio-3.png": "/static/media/portfolio-3.161baed3cc0f6bb33c46.png",
+    "static/media/portfolio-2.png": "/static/media/portfolio-2.4aae394b22606d5d1ece.png",
+    "static/media/tiktok.svg": "/static/media/tiktok.a1840dedddaf7b5079f45980c3d129d9.svg",
+    "static/media/instagram.svg": "/static/media/instagram.2fd021837a135d998ddd6bcb346a1de4.svg",
+    "static/media/eyebrow.svg": "/static/media/eyebrow.88f4f7e0752c272f2424eb1d0458a8e1.svg",
+    "static/media/viber.svg": "/static/media/viber.f1b8b8a06cc81a336979a85bc0231de3.svg",
+    "static/media/hair.svg": "/static/media/hair.315f345c44839e19391b1f5f2aeea37f.svg",
+    "static/media/lips.svg": "/static/media/lips.2d05cd0c8d4c311a90578b761b2c2c70.svg",
+    "static/media/telegram.svg": "/static/media/telegram.3295c7bd9bf1124c19a978b2c44e09c8.svg",
+    "index.html": "/index.html",
+    "static/media/nav.svg": "/static/media/nav.5d9009711c351cf574d2baaf7773095d.svg",
+    "main.81838cda.css.map": "/static/css/main.81838cda.css.map",
+    "main.97a0d283.js.map": "/static/js/main.97a0d283.js.map"
   },
   "entrypoints": [
     "static/css/main.81838cda.css",
-    "static/js/main.580b90f8.js"
+    "static/js/main.97a0d283.js"
   ]
 }
